@@ -16,10 +16,10 @@ public class MiniRedisCore{
             this.expireAtMills = expireAtMills;
         }
     }
-    private final ConcurrentMap<String,Entry> map = new ConcurrentHashMap<>();
+    private final ConcurrentMap<String,Entry> store = new ConcurrentHashMap<>();
     private final ScheduledExecutorService cleaner = Executors.newSingleThreadScheduledExecutor(r ->{
         Thread t= new Thread(r,"ttl-cleaner");
-        t.setDaemo(true);
+        t.setDaemon(true);
         return t;
     });
 
