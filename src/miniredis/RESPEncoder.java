@@ -19,3 +19,4 @@ public final class RESPEncoder {
         if(s == null) return "$-1" + CRLF;
         return "$" + s.length() + CRLF + s + CRLF;
     }
+}
