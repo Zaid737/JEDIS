@@ -25,7 +25,7 @@ public class MiniRedisCore{
 
     public MiniRedisCore(){
         //Preiodically remove expired keys
-        cleaner.scheduleAtFixedRate(this::cleanExpiredKeys,1,1,TimeUnit.SECONDS);
+        cleaner.scheduleAtFixedRate(this::purgeExpired,1,1,TimeUnit.SECONDS);
     }
 
     public String set(String key,String value,Long ttlSeconds){
