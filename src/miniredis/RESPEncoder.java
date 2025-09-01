@@ -8,7 +8,7 @@ public final class RESPEncoder {
     }
     // Encodes an error message in RESP format
     public static String error(String msg){
-        return "-ERR" + msg + CRLF;
+        return "-ERR " + msg + CRLF;
     }
     // Encodes an integer in RESP format
     public static String integer(long v){
