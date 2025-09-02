@@ -21,8 +21,8 @@ Supports basic commands, persistence, and a simple client-server architecture.
 
 1. Clone the repository:
    git clone https://github.com/Zaid737/JEDIS.git
-   
-   cd MiniRedis
+
+2.  cd MiniRedis
 
 3. Compile
   javac -d out src/miniredis/*.java
