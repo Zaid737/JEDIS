@@ -20,16 +20,17 @@ Supports basic commands, persistence, and a simple client-server architecture.
 ## Installation & Compilation
 
 1. Clone the repository:
-   git clone https://github.com/<your-username>/MiniRedis.git
+   git clone https://github.com/<Zaid737>/JEDIS.git
+   
    cd MiniRedis
 
-2. Compile
+3. Compile
   javac -d out src/miniredis/*.java
 
-3. Run Server
+4. Run Server
   java -cp out miniredis.MiniRedisServer
 
-4. Run client(WSL)
+5. Run client(WSL)
    ip route | grep default --Getting ip address
    redis-cli -h <ip> -p 6380
 
