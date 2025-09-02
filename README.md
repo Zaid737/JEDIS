@@ -45,19 +45,4 @@ MiniRedis/
    ip route | grep default --Getting ip address
    redis-cli -h <ip> -p 6380
 
-## Example commands
-
-SET name John
- OK
-GET name
- John
-EXISTS name
- 1
-(Exit and restart server)
-GET name
- John
-DEL name
- OK
-EXISTS name
- 0
 
