@@ -22,13 +22,13 @@ Supports basic commands, persistence, and a simple client-server architecture.
 1. Clone the repository:
    git clone https://github.com/Zaid737/JEDIS.git
 
-2.  cd MiniRedis
+2. Locate repo cd jredis
 
 3. Compile
-  javac -d out src/miniredis/*.java
+   javac -d out src/miniredis/*.java
 
 4. Run Server
-  java -cp out miniredis.MiniRedisServer
+   java -cp out miniredis.MiniRedisServer
 
 5. Run client(WSL)
    ip route | grep default --Getting ip address
