@@ -1,4 +1,4 @@
-#JEDIS
+##JEDIS
 
 A lightweight Redis-like in-memory key-value store implemented in **Java**.  
 Supports basic commands, persistence, and a simple client-server architecture.
