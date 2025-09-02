@@ -20,7 +20,7 @@ Supports basic commands, persistence, and a simple client-server architecture.
 ## Installation & Compilation
 
 1. Clone the repository:
-   git clone https://github.com/<Zaid737>/JEDIS.git
+   git clone https://github.com/Zaid737/JEDIS.git
    
    cd MiniRedis
 
