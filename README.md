@@ -48,16 +48,16 @@ MiniRedis/
 ## Example commands
 
 SET name John
-# OK
+ OK
 GET name
-# John
+ John
 EXISTS name
-# 1
+ 1
 (Exit and restart server)
 GET name
-# John
+ John
 DEL name
-# OK
+ OK
 EXISTS name
-# 0
+ 0
 
