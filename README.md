@@ -17,18 +17,6 @@ Supports basic commands, persistence, and a simple client-server architecture.
 - Git (for cloning the repository).
 
 
-## Structure
-MiniRedis/
-│── src/miniredis/       # Source code
-│   ├── MiniRedisServer.java
-│   ├── MiniRedisClient.java
-│   ├── CommandHandler.java
-│   ├── PersistenceManager.java
-│   └── ...
-│── out/                 # Compiled classes
-│── README.md            # Project documentation
-
-
 ## Installation & Compilation
 
 1. Clone the repository:
