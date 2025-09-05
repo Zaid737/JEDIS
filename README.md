@@ -34,4 +34,24 @@ Supports basic commands, persistence, and a simple client-server architecture.
    ip route | grep default --Getting ip address
    redis-cli -h <ip> -p 6380
 
+   ##Structure
 
+├── README.md
+└── src
+    ├── appendonly.aof
+    ├── miniredis
+        ├── CommandHandler.java
+        ├── MiniRedisCore.java
+        ├── MiniRedisServer.java
+        ├── PersistenceManager.java
+        ├── RESPEncoder.java
+        └── RESPParser.java
+    └── out
+        └── miniredis
+            ├── CommandHandler.class
+            ├── MiniRedisCore$Entry.class
+            ├── MiniRedisCore.class
+            ├── MiniRedisServer.class
+            ├── PersistenceManager.class
+            ├── RESPEncoder.class
+            └── RESPParser.class
