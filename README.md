@@ -9,7 +9,7 @@ Supports basic commands, persistence, and a simple client-server architecture.
 - Persistence using RDB-style snapshots.
 - Simple client-server implementation over TCP sockets.
 - Minimal dependencies, runs with standard Java.
-
+- Can handle concurrent requests
 
 ## Requirements
 - **Java 17** or higher (recommended).
